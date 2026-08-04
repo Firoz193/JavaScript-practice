@@ -64,8 +64,3 @@ console.log(topRatedRestaurant("Hello"));     // Invalid
 console.log(topRatedRestaurant(null));        // Invalid
 console.log(topRatedRestaurant(undefined));   // Invalid
 
-
-
-
-        // if(typeof restaurants[i] !== "object" || restaurants[i] === null || !restaurants[i].hasOwnProperty("name") || !restaurants[i].hasOwnProperty("rating") || typeof restaurants[i].name !== "string" || typeof restaurants[i].rating !== "number" || Number.isNaN(restaurants[i].rating) || !Number.isFinite(restaurants[i].rating))
-        //     return "Invalid";
